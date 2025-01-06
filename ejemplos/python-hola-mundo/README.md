@@ -1,3 +1,3 @@
-# Hola, mundo! Bienvenido a Python Scouts!
+# Cómo escribir tu primer programa en Python: Hola, mundo!
 
-Esta carpeta contiene ejemplos usados en el tutorial [Hola, mundo! Bienvenido a Python Scouts](https://pythonscouts.com/python-hola-mundo/) de Python Scouts.
+Esta carpeta contiene ejemplos usados en el tutorial [Cómo escribir tu primer programa en Python: Hola, mundo!](https://pythonscouts.com/python-hola-mundo/) de Python Scouts.
