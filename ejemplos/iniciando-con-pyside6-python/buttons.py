@@ -1,10 +1,15 @@
-from PyQt6.QtWidgets import QApplication, QPushButton, QVBoxLayout, QWidget
+from PySide6.QtWidgets import (
+    QApplication,
+    QPushButton,
+    QVBoxLayout,
+    QWidget,
+)
 
 app = QApplication([])
 
 window = QWidget()
-window.setWindowTitle("Botones PyQt")
-window.setGeometry(100, 100, 180, 50)
+window.setWindowTitle("Botones PySide6")
+window.setGeometry(100, 100, 190, 50)
 layout = QVBoxLayout()
 window.setLayout(layout)
 

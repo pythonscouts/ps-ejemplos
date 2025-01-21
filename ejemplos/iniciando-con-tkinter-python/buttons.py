@@ -1,16 +1,12 @@
-from PyQt6.QtWidgets import QApplication, QPushButton, QVBoxLayout, QWidget
+import tkinter as tk
 
-app = QApplication([])
+root = tk.Tk()
+root.title("Botones Tkinter")
+root.geometry("190x240")
 
-window = QWidget()
-window.setWindowTitle("Botones PyQt")
-window.setGeometry(100, 100, 180, 50)
-layout = QVBoxLayout()
-window.setLayout(layout)
+buttons = ["Ok", "Cancelar", "Aplicar", "Sí", "No", "Cerrar"]
+for text in buttons:
+    button = tk.Button(root, text=text)
+    button.pack(fill="x", padx=5, pady=5)
 
-for text in ["Ok", "Cancelar", "Aplicar", "Sí", "No", "Cerrar"]:
-    button = QPushButton(text, parent=window)
-    layout.addWidget(button)
-
-window.show()
-app.exec()
+root.mainloop()

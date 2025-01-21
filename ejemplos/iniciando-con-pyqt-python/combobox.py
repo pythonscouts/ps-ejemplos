@@ -1,20 +1,16 @@
-import tkinter as tk
-from tkinter import ttk
+from PyQt6.QtWidgets import QApplication, QComboBox, QVBoxLayout, QWidget
 
-root = tk.Tk()
-root.title("Lista desplegable Tkinter")
-root.geometry("250x100")
+app = QApplication([])
 
-options = ["Tkinter", "PyQt", "PySide", "Kivy", "wxPython"]
-selected_option = tk.StringVar(root)
-selected_option.set(options[0])
+window = QWidget()
+window.setWindowTitle("Lista desplegable PyQt")
+window.setGeometry(100, 100, 250, 50)
+layout = QVBoxLayout()
+window.setLayout(layout)
 
-combobox = ttk.Combobox(
-    root,
-    textvariable=selected_option,
-    values=options,
-    state="readonly",
-)
-combobox.pack(pady=20)
+combo = QComboBox(parent=window)
+combo.addItems(["PyQt", "PySide", "Kivy", "Tkinter", "wxPython"])
+layout.addWidget(combo)
 
-root.mainloop()
+window.show()
+app.exec()

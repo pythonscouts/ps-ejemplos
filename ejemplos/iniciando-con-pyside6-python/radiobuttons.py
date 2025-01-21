@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import (
+from PySide6.QtWidgets import (
     QApplication,
     QLabel,
     QRadioButton,
@@ -8,8 +8,8 @@ from PyQt6.QtWidgets import (
 
 app = QApplication([])
 window = QWidget()
-window.setWindowTitle("Botones radiales PyQt")
-window.setGeometry(100, 100, 230, 80)
+window.setWindowTitle("Botones radiales PySide6")
+window.setGeometry(100, 100, 250, 80)
 layout = QVBoxLayout()
 window.setLayout(layout)
 layout.addWidget(QLabel("¿Qué prefieres?"))

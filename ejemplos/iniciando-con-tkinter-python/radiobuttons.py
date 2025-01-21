@@ -1,23 +1,22 @@
-from PyQt6.QtWidgets import (
-    QApplication,
-    QLabel,
-    QRadioButton,
-    QVBoxLayout,
-    QWidget,
-)
+import tkinter as tk
 
-app = QApplication([])
-window = QWidget()
-window.setWindowTitle("Botones radiales PyQt")
-window.setGeometry(100, 100, 230, 80)
-layout = QVBoxLayout()
-window.setLayout(layout)
-layout.addWidget(QLabel("¿Qué prefieres?"))
+root = tk.Tk()
+root.title("Botones radiales Tkinter")
+root.geometry("250x150")
+
+label = tk.Label(root, text="¿Qué prefieres?")
+label.pack(pady=5)
 
 foods = ["Pizza", "Hamburguesa", "Pasta", "Pollo asado"]
-for food in foods:
-    radio = QRadioButton(food)
-    layout.addWidget(radio)
+selected_food = tk.StringVar(root, foods[0])
 
-window.show()
-app.exec()
+for food in foods:
+    radio = tk.Radiobutton(
+        root,
+        text=food,
+        variable=selected_food,
+        value=food,
+    )
+    radio.pack(anchor="w", padx=5)
+
+root.mainloop()

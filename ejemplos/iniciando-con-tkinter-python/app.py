@@ -1,12 +1,10 @@
-from PyQt6.QtWidgets import QApplication, QLabel, QWidget
+import tkinter as tk
 
-app = QApplication([])
+root = tk.Tk()
+root.title("Tkinter Demo")
+root.geometry("280x80")
 
-window = QWidget()
-window.setWindowTitle("PyQt Demo")
-window.setGeometry(100, 100, 280, 80)
-hello = QLabel("<h1>Hola, Mundo!</h1>", parent=window)
-hello.move(60, 15)
+hello = tk.Label(root, text="Hola, mundo!", font=("Arial", 24))
+hello.pack(pady=20)
 
-window.show()
-app.exec()
+root.mainloop()
