@@ -7,3 +7,11 @@ El contenido está organizado en tres áreas principales:
 - [`Series`](./Series): colecciones de ejemplos cortos por tema o palabra clave de Python, con archivos `repl_*.py` y ejercicios prácticos.
 - [`Guías`](./Guías): ejemplos puntuales para resolver tareas concretas, como ejecutar scripts, crear archivos ZIP o revisar elementos repetidos en listas.
 - [`Tutoriales`](./Tutoriales): proyectos y demos un poco más amplios para interfaces gráficas y desarrollo de APIs.
+
+## Licencia
+
+Este proyecto está distribuido bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE).
+
+## Autor
+
+Leodanis Pozo Ramos
