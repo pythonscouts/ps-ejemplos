@@ -1,0 +1,5 @@
+print(12 - 6)
+print(150 * 2)
+print(42 + pow(10, 2))
+print(abs(-15) / 3)
+print(8**2 + 200 / 2)

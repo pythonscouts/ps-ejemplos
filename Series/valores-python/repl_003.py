@@ -1,0 +1,8 @@
+print(3.14  # Un decimal positivo)
+print(-0.001  # Un decimal negativo)
+print(0.0  # Cero como número decimal)
+print(1.23e3  # Equivalente a 1.23 * 10^3)
+print(5.67E-2  # Equivalente a 5.67 * 10^-2)
+print(.5  # Sin cero a la izquierda del punto)
+print(10.  # Sin fracción decimal especificada)
+print(1_000_000.02  # Con separador de miles en el literal)

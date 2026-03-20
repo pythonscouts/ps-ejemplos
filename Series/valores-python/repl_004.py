@@ -1,0 +1,5 @@
+print(2 + 3j)
+print(5j)
+print(2.5 + 7.8j)
+print(3j + 6)
+print(2 - 3j)

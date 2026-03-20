@@ -1,0 +1,6 @@
+print(5 and "Hola")
+print(10 and 42)
+print(0 and 3.14)
+print(5 or "Hola")
+print(10 or 42)
+print(0 or 3.14)

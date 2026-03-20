@@ -1,0 +1,5 @@
+print(5 + 1 and 2 - 3)
+print(5 and 0)
+print("" and [])
+print("" and 3 + 2)
+print({} and 3)
