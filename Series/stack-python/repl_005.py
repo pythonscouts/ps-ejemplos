@@ -1,0 +1,5 @@
+stack = Stack([10, 20, 30])
+print(len(stack))
+print(stack.is_empty())
+print(20 in stack)
+print(99 in stack)
