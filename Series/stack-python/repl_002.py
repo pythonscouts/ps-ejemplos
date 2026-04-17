@@ -1,3 +1,5 @@
+from stack import Stack
+
 stack = Stack()
 stack.push(1)
 stack.push(2)

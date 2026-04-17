@@ -1,3 +1,5 @@
+from stack import Stack
+
 stack = Stack([10, 20, 30])
 print(len(stack))
 print(stack.is_empty())

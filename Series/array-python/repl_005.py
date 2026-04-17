@@ -1,3 +1,5 @@
+from array_python import Array
+
 a = Array(5)
 print(len(a))
 print(42 in a)

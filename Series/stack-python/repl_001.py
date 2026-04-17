@@ -1,3 +1,5 @@
+from stack import Stack
+
 stack = Stack()
 print(stack)
 stack = Stack([1, 2, 3])

@@ -1,3 +1,5 @@
+from array_python import Array
+
 a = Array(5)
 a[0] = 1
 a[1] = 2
