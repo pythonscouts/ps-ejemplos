@@ -1,0 +1,7 @@
+dllist = DoublyLinkedList([1, 2, 3])
+dllist.remove(2)
+print(dllist)
+dllist.remove(1)
+print(dllist)
+dllist.remove(3)
+print(dllist)
