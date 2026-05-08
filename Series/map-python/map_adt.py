@@ -41,7 +41,7 @@ class Map:
     def set_default(self, key: Any, default: Optional[Any] = None, /) -> Any:
         """Insert a key-default pair into map if key doesn't exist.
 
-        Return the value for key if key is in the dictionary, else default.
+        Return the value for key if key is in the map, else default.
         """
         try:
             return self[key]
